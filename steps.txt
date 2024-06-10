@@ -1,0 +1,5 @@
+1. create a git repo.
+2. Run the templates.py
+3. push the folder structure to the github.
+4. Then write the requirements.txt file.
+5. conda create -n chickken_virtual python==3.8 ## Env creation.
