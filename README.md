@@ -2,6 +2,8 @@
 
 ## Workflows
 
+## Data path: https://github.com/Abrar0280/Datasets/raw/main/Chicken-fecal-images.zip
+
 Update config.yaml
 Update secrets.yaml [Optional]
 Update params.yaml

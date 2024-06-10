@@ -3,3 +3,28 @@
 3. push the folder structure to the github.
 4. Then write the requirements.txt file.
 5. conda create -n chickken_virtual python==3.8 ## Env creation.
+
+6. create loggin module in src/project/__init__.py
+
+7. create utils file: commonly used functions
+
+8. update the config.yaml file with the paths.
+
+9. In the constants folder in the __init__.py here read the yaml files
+    like config.yaml and params.yaml
+
+
+10. After creating the notebook then convert to modular code:
+
+    create config_entity.py in entity folder : dataclass code
+
+11. update configuration manager in src folder:
+
+12. Next step is to update the components file
+
+13. Next create a file in pipeline eg: stage_01_data_ingestion.py
+
+14. FInally update the main.py
+
+15. After updated all the pipelines finally update the dvc.yaml
+
