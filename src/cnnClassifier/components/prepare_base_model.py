@@ -32,7 +32,7 @@ class PrepareBaseModel:
         # Load the VGG16 model with local weights
         self.model = tf.keras.applications.VGG16(
             input_shape=self.config.params_image_size,
-            weights=weights_file,
+            weights=self.config.params_weights,
             include_top=self.config.params_include_top
         )
         self.save_model(path=self.config.base_model_path, model=self.model)
@@ -57,8 +57,9 @@ class PrepareBaseModel:
             outputs=prediction
         )
 
+        optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate)
         full_model.compile(
-            optimizer=tf.keras.optimizers.SGD(learning_rate=learning_rate),
+            optimizer=optimizer,
             loss=tf.keras.losses.CategoricalCrossentropy(),
             metrics=["accuracy"]
         )

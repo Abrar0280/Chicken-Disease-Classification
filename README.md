@@ -17,6 +17,10 @@ How to run?
 STEPS:
 Clone the repository
 
+Tensorboard logs command:
+tensorboard --logdir artifacts/prepare_callbacks/tensorboard_log_dir/
+
+
 https://github.com/Abrar1250/Chicken-Disease-Classification--Project
 
 STEP 01- Create a conda environment after opening the repository
