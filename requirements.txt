@@ -15,5 +15,6 @@ scipy
 Flask
 Flask-Cors
 certifi
+# --upgrade certifi
 
 -e .

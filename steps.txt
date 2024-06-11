@@ -1,3 +1,6 @@
+Steps of the code flow:
+
+
 1. create a git repo.
 2. Run the templates.py
 3. push the folder structure to the github.
