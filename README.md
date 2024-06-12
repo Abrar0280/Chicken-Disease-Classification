@@ -101,8 +101,9 @@ AWS_ECR_LOGIN_URI = 730335217981.dkr.ecr.us-east-1.amazonaws.com
 ECR_REPOSITORY_NAME = simple-app
 
 
-AZURE-CICD-Deployment-with-Github-Actions
-Save pass:
+## AZURE-CICD-Deployment-with-Github-Actions
+
+# Save pass:
 s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
 
 Run from terminal:
@@ -112,7 +113,7 @@ docker login chickenapp.azurecr.io
 
 docker push chickenapp.azurecr.io/chicken:latest
 
-Deployment Steps:
+# Deployment Steps:
 Build the Docker image of the Source Code
 Push the Docker image to Container Registry
 Launch the Web App Server in Azure
