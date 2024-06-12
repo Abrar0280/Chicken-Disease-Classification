@@ -21,7 +21,7 @@ Tensorboard logs command:
 tensorboard --logdir artifacts/prepare_callbacks/tensorboard_log_dir/
 
 
-https://github.com/Abrar1250/Chicken-Disease-Classification--Project
+https://github.com/Abrar0280/Chicken-Disease-Classification.git
 
 STEP 01- Create a conda environment after opening the repository
 conda create -n cnncls python=3.8 -y
@@ -96,9 +96,11 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = us-east-1
 
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI = 730335217981.dkr.ecr.us-east-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = simple-app
+
+
 AZURE-CICD-Deployment-with-Github-Actions
 Save pass:
 s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
